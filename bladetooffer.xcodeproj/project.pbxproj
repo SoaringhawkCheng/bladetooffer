@@ -6,6 +6,10 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		9244E8FC1EEA31BF0054EF33 /* p38.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9244E8FB1EEA31BF0054EF33 /* p38.cpp */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		9227E1D41EEA2E8100488253 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -20,6 +24,7 @@
 
 /* Begin PBXFileReference section */
 		9227E1D61EEA2E8200488253 /* bladetooffer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = bladetooffer; sourceTree = BUILT_PRODUCTS_DIR; };
+		9244E8FB1EEA31BF0054EF33 /* p38.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = p38.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +57,7 @@
 		9227E1D81EEA2E8200488253 /* bladetooffer */ = {
 			isa = PBXGroup;
 			children = (
+				9244E8FB1EEA31BF0054EF33 /* p38.cpp */,
 			);
 			path = bladetooffer;
 			sourceTree = "<group>";
@@ -114,6 +120,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9244E8FC1EEA31BF0054EF33 /* p38.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,6 +251,7 @@
 				9227E1DF1EEA2E8200488253 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
